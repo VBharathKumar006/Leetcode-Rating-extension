@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Problem Rating",
+  "version": "1.0.0",
+  "description": "Displays difficulty rating and level for LeetCode problems-By Bharath",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://leetcode.com/problems/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "problem_data.json"
+      ],
+      "matches": [
+        "*://leetcode.com/*"
+      ]
+    }
+  ]
+}

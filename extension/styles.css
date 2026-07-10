@@ -1,0 +1,39 @@
+.lc-rating-extension-badges {
+  /* Inherit layout from parent, but add gap between our injected badges and the native ones */
+  margin-right: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lc-ext-badge {
+  /* Basic flex properties to ensure icon alignment, native classes handle the rest */
+  display: inline-flex;
+  align-items: center;
+  color: rgb(239, 241, 246); /* LeetCode text color, may be overridden by specific badge colors */
+  text-decoration: none;
+}
+
+/* Specific badge colors */
+.lc-ext-rating {
+  color: #ff375f; /* Red for high ratings, but we can make it dynamic in JS if needed. Let's stick to the red shown in the image */
+}
+
+.lc-ext-contest {
+  cursor: pointer;
+  text-decoration: none;
+}
+.lc-ext-contest:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.lc-ext-level {
+  /* Inherits white text */
+}
+
+.lc-ext-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}

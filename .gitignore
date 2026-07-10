@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+fetch_test.py
+fetch_excel.py
+excel_out.json
+.DS_Store
