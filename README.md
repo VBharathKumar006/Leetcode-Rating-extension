@@ -9,6 +9,9 @@ Displays difficulty rating, contest origin, and level for LeetCode problems dire
 - **Difficulty Levels:** Displays the problem's community-driven level (1-10).
 - **Native Look & Feel:** Seamlessly integrates with the LeetCode dark mode UI by dynamically applying LeetCode's native CSS classes, matching padding, font sizes, and background colors exactly.
 - **Fast & Private:** All data is bundled locally within the extension. No external API calls are made while browsing, ensuring instant load times and complete privacy.
+## Image Preview
+<img width="913" height="467" alt="image" src="https://github.com/user-attachments/assets/e8ed10e7-fce2-4a9b-881c-51a20cf79cda" />
+
 
 ## How to Install and Use
 
